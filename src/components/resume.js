@@ -27,16 +27,17 @@ const Resume = () => {
 
             </Container>
 
-            <span className="social-icon">
-                <div>
+<Container className="d-flex justify-content-center w-100">
+<span className="social-icon">
                   <a href="https://github.com/marphco" target="_blank">
                     <img id="github" src={Github} alt="GitHub" />
                   </a>
-                  <a href="https:/linkedin.com/in/marco-franco"  target="_blank">
+                  <a href="https://www.linkedin.com/in/marco-franco/"  target="_blank">
                     <img id="linkedin" src={Linkedin} alt="LinkedIn" />
                   </a>
-                </div>
               </span>
+</Container>
+            
 
         </Row>
     )

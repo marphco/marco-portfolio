@@ -52,10 +52,6 @@ body {
     transform-origin: 70% 70%;
 }
 
-.avatar {
-  height: 300px;
-}
-
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
 color: var(--primary) !important;
 }
@@ -314,8 +310,8 @@ background-color: var(--secondary);
 }
 
 #resume .resume-avatar {
-  width: 300px;
-  height: 300px;
+  width: 290px;
+  height: 290px;
 }
 
 .resume-button {
@@ -465,8 +461,8 @@ background-color: var(--secondary);
   }
 
 #hero img {
-  width: 385px;
-  height: 385px;
+  width: 360px;
+  height: 360px;
 }
 
 h2 {
@@ -524,12 +520,6 @@ h2 {
 .resume-control:focus {
   border-color: var(--primary) !important;
   box-shadow: 0 0 0 0.2rem rgba(183, 229, 16, .5) !important;
-}
-
-#resume .social-icon img {
-  padding-top: 16px;
-  width: 52px;
-  height: 52px;
 }
 
 #resume .social-icon {
