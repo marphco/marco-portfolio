@@ -423,12 +423,12 @@ background-color: var(--secondary);
   }
 
   .marco {
-    font-size: 60px;
+    font-size: 56px;
   }
 
   h1 {
     padding-left: 7%;
-    font-size: 60px !important;
+    font-size: 56px !important;
     line-height: 1 !important;
   }
   
