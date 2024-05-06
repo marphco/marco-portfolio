@@ -37,7 +37,6 @@ The following image shows the layout of the web application:
 - **React**: Utilized for its component-based architecture, facilitating the modular design of the website.
 - **Bootstrap**: For responsive design elements that adapt to different screen sizes and devices.
 - **Node.js and Express**: For backend server implementation.
-- **MongoDB**: Used as a NoSQL database to store contact form data and other user inputs.
 - **Heroku**: For deploying the application and managing the live environment.
 - **Git**: For version control and source code management.
 - **GitHub**: For hosting the repository and facilitating collaboration.
