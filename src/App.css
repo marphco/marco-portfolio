@@ -13,6 +13,26 @@
   font-style: normal;
 }
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+ 10% { transform: rotate(14.0deg) } 
+ 20% { transform: rotate(-8.0deg) }
+ 30% { transform: rotate(14.0deg) }
+ 40% { transform: rotate(-4.0deg) }
+ 50% { transform: rotate(10.0deg) }
+60% { transform: rotate( 0.0deg) } 
+100% { transform: rotate( 0.0deg) } 
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -121,10 +141,6 @@ box-shadow: 0 0 10px var(--primary);
 }
 
 /* HERO */
-
-#hero {
-  margin-top:100px;
-}
 
 #hero img {
   width: 500px;
@@ -353,50 +369,11 @@ background-color: var(--secondary);
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes wave-animation {
-  0% { transform: rotate( 0.0deg) }
- 10% { transform: rotate(14.0deg) } 
- 20% { transform: rotate(-8.0deg) }
- 30% { transform: rotate(14.0deg) }
- 40% { transform: rotate(-4.0deg) }
- 50% { transform: rotate(10.0deg) }
-60% { transform: rotate( 0.0deg) } 
-100% { transform: rotate( 0.0deg) } 
-}
-
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .mobile-navbar {
-    background-color: #121212; /* Ensure dark theme applies */
+    background-color: #121212;
     border-top: 3px solid #333;
     border-radius: 20px 20px 0 0;
     padding: 5px 0;
@@ -446,12 +423,12 @@ background-color: var(--secondary);
   }
 
   .marco {
-    font-size: 64px;
+    font-size: 60px;
   }
 
   h1 {
     padding-left: 7%;
-    font-size: 64px !important;
+    font-size: 60px !important;
     line-height: 1 !important;
   }
   
@@ -528,4 +505,81 @@ h2 {
   flex-direction: row !important;
 }
 
+}
+
+@media only screen and (min-width: 600px) {
+  
+  .mobile-navbar {
+    background-color: #121212;
+    border-top: 3px solid #333;
+    border-radius: 20px 20px 0 0;
+    padding: 5px 0;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .mobile-navbar .nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .mobile-navbar .nav-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .mobile-navbar .nav-link {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mobile-navbar .nav-link img {
+    margin-bottom: 4px;
+    width: 24px;
+  }
+
+  .mobile-navbar .nav-link div {
+    font-size: 12px;
+  }
+
+  .mobile-navbar .nav-link.active {
+    color: var(--primary) !important;
+  }
+  
+  #hero {
+    margin-top: 23%;
+    flex-direction: column-reverse;
+  }
+
+  #portfolio {
+    min-height: 2100px;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  #hero {
+    margin-top: 100px;
+    flex-direction: row;
+  }
+
+  #portfolio {
+    width: 100%;
+    margin: auto;
+    min-height: 1750px;
+    background-color: var(--dark);
+  }
 }

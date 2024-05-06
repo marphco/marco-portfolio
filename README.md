@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Marco Portfolio
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Marco Portfolio is a personal website designed to showcase creative projects and technical skills in web development. The site is built using a modern web technology stack that emphasizes responsive design and interactive user experiences. This portfolio not only highlights my work but also demonstrates my capabilities in utilizing various web technologies.
 
-## Available Scripts
+### Key Features:
 
-In the project directory, you can run:
+1. **Responsive Design:** Utilizes CSS frameworks combined with custom media queries to ensure the website is accessible and functional on all devices.
+2. **Dynamic Content:** Features interactive elements such as modals, carousels, and AJAX-driven content loading to engage visitors.
+3. **Portfolio Showcase:** Categorized display of projects, complete with detailed case studies, image galleries, and direct links to live sites or GitHub repositories.
+4. **Contact Form:** A fully functional contact form, enhanced with backend technologies, provides an easy way for visitors to connect.
 
-### `npm start`
+## Table of Contents
+- [Usage](#usage)
+- [Mockup](#mockup)
+- [Technologies Used](#technologies-used)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+To view Marco Portfolio, visit [this link](https://marco-portfolio-e0835e455303.herokuapp.com/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Mockup
+The following image shows the layout of the web application:
 
-### `npm test`
+![Desktop screen size visualization of Marco Portfolio.](./src/components/assets/img/desktop-screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Tablet screen size visualization of Marco Portfolio.](./src/components/assets/img/tablet-screenshot.png)
 
-### `npm run build`
+![Mobile screen size visualization of Marco Portfolio.](./src/components/assets/img/smartphone-screenshot.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **HTML5 & CSS3**: For structuring and styling the website.
+- **JavaScript (ES6+)**: For creating dynamic and interactive user experiences.
+- **React**: Utilized for its component-based architecture, facilitating the modular design of the website.
+- **Bootstrap**: For responsive design elements that adapt to different screen sizes and devices.
+- **Node.js and Express**: For backend server implementation.
+- **MongoDB**: Used as a NoSQL database to store contact form data and other user inputs.
+- **Heroku**: For deploying the application and managing the live environment.
+- **Git**: For version control and source code management.
+- **GitHub**: For hosting the repository and facilitating collaboration.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credits
+- [Bootstrap](https://getbootstrap.com)
+- [React](https://reactjs.org/)
+- [Node.js](https://nodejs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Heroku](https://www.heroku.com/)
+- [shields.io](https://shields.io/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+For any questions, please reach out via:
+- GitHub: [marphco](https://github.com/marphco)
+- Email: [marphco@gmail.com](mailto:marphco@gmail.com)
